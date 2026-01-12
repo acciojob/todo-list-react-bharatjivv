@@ -37,12 +37,12 @@ function App() {
     <div>
       {/* Add Task Section */}
       <div className="add_tasks_section">
-        <input
+         <textarea
           type="text"
           value={task}
           onChange={(e) => setTask(e.target.value)}
           placeholder="Add a task"
-        />
+        ></textarea>
         <button onClick={addTask}>Add</button>
       </div>
 
